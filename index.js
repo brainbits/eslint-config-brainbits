@@ -4,7 +4,9 @@ module.exports = {
         'eslint-config-airbnb-base/rules/strict',
     ].map(require.resolve),
     rules: {
-        indent: ['error', 4],
+        indent: ['error', 4, {
+            SwitchCase: 1,
+        }],
         'jest/no-disabled-tests': 'warn',
         'jest/no-focused-tests': 'error',
         'jest/no-identical-title': 'error',
