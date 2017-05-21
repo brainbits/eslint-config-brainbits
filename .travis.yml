@@ -1,0 +1,12 @@
+language: node_js
+sudo: false
+node_js:
+  - '7'
+deploy:
+  provider: npm
+  email: info@brainbits.net
+  api_key:
+    secure: "k4dUE9E6qPjY3sG6j65JmnwjmPK+IZox39gytE2X4hrmvuc1E9kLvTncitWZGsQBxHMmijOsGOLLJWVqLDsZfA3iJJvBRap9jADwlBDj5ZKmyGaPAUJKtL890f5ldnDzGH3f6igu79Vcq5r9IleVSENz/Ibv/pv+krOTpMapJDrWpWQj7W07e9adftB0WdrC8xFcKflrHX0+19YVNOv9FTHU8zgrAQPZeJ442WM1jTJBlHfeo9H9UjMb916g2/7vyBM7OO6D683fhDiWFkY5odbN3hb5X1+0PhpJUDtPQ5QDRJIxIeFk0YMTnNroTKKHkqHoLk5Xa+GE3DjImBSMLnX1I4zPKVGP4Gj8LbI75eeS2JmdTyTNnWEZzAkHRxo7L9intDmIVdtBpc1dAb21q+vteuCocvmk3Fs3nPlxBZ9bfwCF6yEiJNGOUSNk1eyTOmQPwbN7lVLK3yITuKEDXZ0O3gyFHO2CK3TmF5rvbqmkx4OqZ9tEI/Gh0lKBaVKIRotoFMnZJymr3kBMLPe0gZ+qvMk0vx00kZx0C2syH3mKGYb2N8TQOfXpI9JYVb819QuPLZ/gY/8LfQvy/vJk9sxK7vl32bqE17eerxo4qEGVkGN5sdy+1qQANOT9hMET0dng57H4r1516KiSQGbGdC3rWQkd+siwK2DMA08ZApE="
+  on:
+    tags: true
+    repo: brainbits/eslint-config-brainbits

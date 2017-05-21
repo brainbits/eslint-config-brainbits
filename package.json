@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.4"
+  },
+  "name": "eslint-config-brainbits-monorepo",
+  "version": "0.1.0",
+  "description": "Eslint rule sets used by Brainbits GmbH",
+  "main": "index.js",
+  "private": true,
+  "repository": "brainbits/eslint-config-brainbits",
+  "author": "Michael van Engelshoven <michael@van-engelshoven.de>",
+  "license": "MIT"
+}
