@@ -240,15 +240,15 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-airbnb-base@^11.1.1:
+eslint-config-airbnb-base@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.2.0.tgz#19a9dc4481a26f70904545ec040116876018f853"
 
-eslint-config-brainbits@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-brainbits/-/eslint-config-brainbits-0.2.0.tgz#9c3df1d8ceb91cb176f2711548bf6ab5f5e23241"
+eslint-config-brainbits@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-brainbits/-/eslint-config-brainbits-0.3.0.tgz#2b753f591bea4805b2ff3c6aee7f767d920bd12b"
   dependencies:
-    eslint-config-airbnb-base "^11.1.1"
+    eslint-config-airbnb-base "^11.2.0"
 
 eslint-plugin-jest@^20.0.3:
   version "20.0.3"

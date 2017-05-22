@@ -330,15 +330,21 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-airbnb-base@^11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.1.1.tgz#61e9e89e4eb89f474f6913ac817be9fbb59063e0"
+eslint-config-airbnb-base@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.2.0.tgz#19a9dc4481a26f70904545ec040116876018f853"
 
-eslint-config-brainbits@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-brainbits/-/eslint-config-brainbits-0.2.0.tgz#9c3df1d8ceb91cb176f2711548bf6ab5f5e23241"
+eslint-config-airbnb@^15.0.1:
+  version "15.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-15.0.1.tgz#7b5188e5b7c74b9b2ce639fd5e1daba8fd761aed"
   dependencies:
-    eslint-config-airbnb-base "^11.1.1"
+    eslint-config-airbnb-base "^11.2.0"
+
+eslint-config-brainbits@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-brainbits/-/eslint-config-brainbits-0.3.0.tgz#2b753f591bea4805b2ff3c6aee7f767d920bd12b"
+  dependencies:
+    eslint-config-airbnb-base "^11.2.0"
 
 eslint-import-resolver-node@^0.2.0:
   version "0.2.3"
