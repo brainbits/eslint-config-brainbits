@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-jest",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Default eslint config for project using jest at Brainbits GmbH",
   "main": "index.js",
   "repository": "brainbits/eslint-config-brainbits",
