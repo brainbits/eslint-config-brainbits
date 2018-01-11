@@ -7,7 +7,7 @@ module.exports = {
     rules: {
         'react/jsx-indent-props': [
             'error',
-            8,
+            4,
         ],
         'react/jsx-indent': [
             'error',
