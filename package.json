@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^2.7.0"
   },
