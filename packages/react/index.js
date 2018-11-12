@@ -13,5 +13,15 @@ module.exports = {
             'error',
             4,
         ],
+        'import/no-extraneous-dependencies': [
+            'error',
+            {
+                'devDependencies': [
+                    '**/*.test.js',
+                    '**/*.test.jsx',
+                    'src/setupTests.js',
+                ]
+            }
+        ],
     },
 };

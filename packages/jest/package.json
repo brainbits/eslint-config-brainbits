@@ -14,11 +14,11 @@
     "eslint-config-brainbits": "^0.4.2"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-plugin-jest": "^21.6.1"
+    "eslint": "^5.8.0",
+    "eslint-plugin-jest": "^22.0.0"
   },
   "peerDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-plugin-jest": "^21.6.1"
+    "eslint": "^5.8.0",
+    "eslint-plugin-jest": "^22.0.0"
   }
 }
