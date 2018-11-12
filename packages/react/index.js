@@ -13,18 +13,6 @@ module.exports = {
             'error',
             4,
         ],
-        'react/forbid-prop-types': [
-            'error',
-            {
-                'forbid': ['any']
-            }
-        ],
-        'react/prop-types': [
-            'error',
-            {
-                ignore: ['styles']
-            }
-        ],
         'import/no-extraneous-dependencies': [
             'error',
             {
