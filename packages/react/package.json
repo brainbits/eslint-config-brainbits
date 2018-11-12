@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-react",
-  "version": "0.4.2",
+  "version": "1.0.0",
   "description": "Global react eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-brainbits": "^0.4.2",
+    "eslint-config-brainbits": "^1.0.0",
     "eslint-plugin-react": "^7.4.0"
   },
   "devDependencies": {
