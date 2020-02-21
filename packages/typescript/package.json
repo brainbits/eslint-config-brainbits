@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-brainbits-react",
+  "name": "eslint-config-brainbits-typescript",
   "version": "1.0.0",
-  "description": "Global react eslint rules for Brainbits GmbH",
+  "description": "Global typescript eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
@@ -10,11 +10,13 @@
   "keywords": [
     "eslint",
     "lint",
-    "config"
+    "config",
+    "typescript"
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-brainbits": "^1.0.0"
   }
 }

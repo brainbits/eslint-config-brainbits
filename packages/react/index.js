@@ -1,9 +1,18 @@
+const { settings: baseImportSettings } = require('eslint-config-airbnb-base/rules/imports');
+
 module.exports = {
     extends: [
         'eslint-config-brainbits',
         'eslint-config-airbnb/rules/react',
         'eslint-config-airbnb/rules/react-a11y',
     ].map(require.resolve),
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.jsx', ...baseImportSettings['import/resolver'].node.extensions],
+            },
+        },
+    },
     rules: {
         'react/jsx-indent-props': [
             'error',
