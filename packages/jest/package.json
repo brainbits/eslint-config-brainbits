@@ -15,10 +15,10 @@
   },
   "devDependencies": {
     "eslint": "^5.8.0",
-    "eslint-plugin-jest": "^22.0.0"
+    "eslint-plugin-jest": "^23.7.0"
   },
   "peerDependencies": {
     "eslint": "^5.8.0",
-    "eslint-plugin-jest": "^22.0.0"
+    "eslint-plugin-jest": "^23.7.0"
   }
 }
