@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-brainbits",
+  "name": "eslint-config-brainbits-typescript-react",
   "version": "1.0.0",
-  "description": "Global eslint rules for Brainbits GmbH",
+  "description": "Global typescript react eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
@@ -14,6 +14,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.0.0"
+    "eslint-config-brainbits-typescript": "^1.0.0",
+    "eslint-config-brainbits-react": "^1.0.0"
   }
 }

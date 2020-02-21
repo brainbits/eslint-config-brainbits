@@ -1,6 +1,6 @@
-const styleRules = require('eslint-config-airbnb-base/rules/style');
-const bestPracticesRules = require('eslint-config-airbnb-base/rules/best-practices');
-const errorsRules = require('eslint-config-airbnb-base/rules/errors');
+const { rules: styleRules } = require('eslint-config-airbnb-base/rules/style');
+const { rules: bestPracticesRules } = require('eslint-config-airbnb-base/rules/best-practices');
+const { rules: errorsRules } = require('eslint-config-airbnb-base/rules/errors');
 
 module.exports = {
     extends: [
@@ -11,22 +11,30 @@ module.exports = {
         'babel',
     ],
     rules: {
+        'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+        'object-curly-newline': [styleRules['object-curly-newline'][0], {
+            ...styleRules['object-curly-newline'][1],
+            ObjectExpression: { ...styleRules['object-curly-newline'][1].ObjectExpression, minProperties: 5 },
+            ObjectPattern: { ...styleRules['object-curly-newline'][1].ObjectPattern, minProperties: 5 },
+            ImportDeclaration: { ...styleRules['object-curly-newline'][1].ImportDeclaration, minProperties: 5 },
+            ExportDeclaration: { ...styleRules['object-curly-newline'][1].ExportDeclaration, minProperties: 5 },
+        }],
         indent: ['error', 4, {
             SwitchCase: 1,
         }],
         'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
-        quotes: 0,
-        'new-cap': 0,
-        'object-curly-spacing': 0,
-        semi: 0,
-        'no-invalid-this': 0,
-        'valid-typeof': 0,
-        'babel/quotes': styleRules.rules.quotes,
-        'babel/new-cap': styleRules.rules['new-cap'],
-        'babel/object-curly-spacing': styleRules.rules['object-curly-spacing'],
-        'babel/semi': styleRules.rules.semi,
-        'babel/no-invalid-this': bestPracticesRules.rules['no-invalid-this'],
-        'babel/valid-typeof': errorsRules.rules['valid-typeof'],
+        quotes: 'off',
+        'new-cap': 'off',
+        'object-curly-spacing': 'off',
+        semi: 'off',
+        'no-invalid-this': 'off',
+        'valid-typeof': 'off',
+        'babel/quotes': styleRules.quotes,
+        'babel/new-cap': styleRules['new-cap'],
+        'babel/object-curly-spacing': styleRules['object-curly-spacing'],
+        'babel/semi': styleRules.semi,
+        'babel/no-invalid-this': bestPracticesRules['no-invalid-this'],
+        'babel/valid-typeof': errorsRules['valid-typeof'],
         'import/no-extraneous-dependencies': [
             'error',
             {
@@ -34,6 +42,11 @@ module.exports = {
                     '**/*.test.js',
                 ]
             }
-        ]
+        ],
+        'max-len': [
+            styleRules['max-len'][0],
+            120,
+            ...styleRules['max-len'].slice(2),
+        ],
     }
 };
