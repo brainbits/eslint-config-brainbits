@@ -12,5 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-brainbits": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.1.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
