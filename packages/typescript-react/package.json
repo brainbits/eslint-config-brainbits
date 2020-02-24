@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-typescript-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Global typescript react eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-brainbits-react": "^2.0.0",
-    "eslint-config-brainbits-typescript": "^2.0.0"
+    "eslint-config-brainbits-react": "^2.0.1",
+    "eslint-config-brainbits-typescript": "^2.0.1"
   },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.1.0",

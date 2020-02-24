@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-typescript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Global typescript eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "dependencies": {
     "@typescript-eslint/parser": "^2.19.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-brainbits": "^2.0.0"
+    "eslint-config-brainbits": "^2.0.1"
   },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.1.0",
