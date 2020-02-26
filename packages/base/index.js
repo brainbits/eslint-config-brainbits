@@ -14,10 +14,10 @@ module.exports = {
         'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
         'object-curly-newline': [styleRules['object-curly-newline'][0], {
             ...styleRules['object-curly-newline'][1],
-            ObjectExpression: { ...styleRules['object-curly-newline'][1].ObjectExpression, minProperties: 5 },
-            ObjectPattern: { ...styleRules['object-curly-newline'][1].ObjectPattern, minProperties: 5 },
-            ImportDeclaration: { ...styleRules['object-curly-newline'][1].ImportDeclaration, minProperties: 5 },
-            ExportDeclaration: { ...styleRules['object-curly-newline'][1].ExportDeclaration, minProperties: 5 },
+            ObjectExpression: { ...styleRules['object-curly-newline'][1].ObjectExpression, minProperties: 6 },
+            ObjectPattern: { ...styleRules['object-curly-newline'][1].ObjectPattern, minProperties: 6 },
+            ImportDeclaration: { ...styleRules['object-curly-newline'][1].ImportDeclaration, minProperties: 6 },
+            ExportDeclaration: { ...styleRules['object-curly-newline'][1].ExportDeclaration, minProperties: 6 },
         }],
         indent: ['error', 4, {
             SwitchCase: 1,
