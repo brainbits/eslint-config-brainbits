@@ -4,7 +4,7 @@ module.exports = {
     extends: [
         'eslint-config-brainbits-react',
         'eslint-config-brainbits-typescript',
-    ].map(require.resolve),
+    ],
     settings: {
         // Apply special parsing for TypeScript files
         'import/parsers': {

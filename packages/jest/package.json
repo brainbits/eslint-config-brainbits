@@ -13,6 +13,10 @@
   "dependencies": {
     "eslint-config-brainbits": "^2.0.1"
   },
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.1.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.1.0",
     "eslint-plugin-import": "^2.18.2"

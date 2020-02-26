@@ -11,7 +11,8 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     extends: [
         'eslint-config-brainbits',
-    ].map(require.resolve),
+        'plugin:@typescript-eslint/recommended',
+    ],
     settings: {
         // Apply special parsing for TypeScript files
         'import/parsers': {
@@ -156,5 +157,5 @@ module.exports = {
                 markers: [...baseStyleRules['spaced-comment'][2].line.markers, '/'], // space here to support sprockets directives
             },
         }],
-    }
+    },
 };
