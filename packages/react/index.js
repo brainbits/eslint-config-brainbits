@@ -5,7 +5,7 @@ module.exports = {
         'eslint-config-brainbits',
         'eslint-config-airbnb/rules/react',
         'eslint-config-airbnb/rules/react-a11y',
-    ],
+    ].map(require.resolve),
     settings: {
         'import/resolver': {
             node: {

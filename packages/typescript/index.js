@@ -10,8 +10,8 @@ module.exports = {
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
     extends: [
-        'eslint-config-brainbits',
-        'plugin:@typescript-eslint/recommended',
+        require.resolve('eslint-config-brainbits'),
+        'plugin:@typescript-eslint/recommended', // Plugins are peerDependencies, thus this should be resolvable without problems
     ],
     settings: {
         // Apply special parsing for TypeScript files
