@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits",
-  "version": "2.0.1",
+  "version": "2.1.0-rc.0",
   "description": "Global eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "eslint-config-airbnb-base": "^14.0.0"
   },
   "devDependencies": {
-      "eslint": "^5.16.0 || ^6.1.0",
-      "eslint-plugin-import": "^2.18.2"
+    "eslint": "^5.16.0 || ^6.1.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.1.0",
