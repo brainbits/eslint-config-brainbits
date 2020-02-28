@@ -157,5 +157,7 @@ module.exports = {
                 markers: [...baseStyleRules['spaced-comment'][2].line.markers, '/'], // space here to support sprockets directives
             },
         }],
+
+        '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
     },
 };
