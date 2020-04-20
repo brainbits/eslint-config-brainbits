@@ -26,7 +26,10 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npx lerna version --conventional-commits --yes
+      - run: |
+          git config --global user.name 'Brainbits Bot'
+          git config --global user.email 'info@brainbits.net'
+          npx lerna version --conventional-commits --yes
 
 
   publish-npm:
