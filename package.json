@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "postinstall": "lerna bootstrap --no-ci",
     "publish": "lerna publish"
   },
   "devDependencies": {
