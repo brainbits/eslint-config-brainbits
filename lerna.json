@@ -2,11 +2,13 @@
   "lerna": "2.7.0",
   "command": {
     "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
   "packages": [
     "packages/*"
   ],
-  "version": "2.1.0"
+  "version": "2.1.1"
 }
