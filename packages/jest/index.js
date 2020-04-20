@@ -8,6 +8,6 @@ module.exports = {
         'jest',
     ],
     env: {
-        'jest/globals': true,
+        'jest': true,
     },
 };
