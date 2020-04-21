@@ -9,6 +9,7 @@ module.exports = {
     ].map(require.resolve),
     plugins: [
         'babel',
+        'promise',
     ],
     rules: {
         'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
@@ -40,13 +41,29 @@ module.exports = {
             {
                 'devDependencies': [
                     '**/*.test.js',
-                ]
-            }
+                ],
+            },
         ],
         'max-len': [
             styleRules['max-len'][0],
             120,
             ...styleRules['max-len'].slice(2),
         ],
-    }
+
+        // Promise plugin
+        'promise/always-return': 'error',
+        'promise/no-return-wrap': 'error',
+        'promise/param-names': 'error',
+        'promise/catch-or-return': 'error',
+        'promise/no-native': 'off',
+        'promise/no-nesting': 'warn',
+        'promise/no-promise-in-callback': 'warn',
+        'promise/no-callback-in-promise': 'warn',
+        'promise/avoid-new': 'off',
+        'promise/no-new-statics': 'error',
+        'promise/no-return-in-finally': 'warn',
+        'promise/valid-params': 'warn',
+        'promise/prefer-await-to-then': 'off',
+        'promise/prefer-await-to-callbacks': 'off',
+    },
 };
