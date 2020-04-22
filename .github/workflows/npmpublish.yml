@@ -7,27 +7,37 @@ on:
 
 jobs:
   test:
+    name: Run unit tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
+      - name: Install node dependencies
+        run: npm ci
+      - name: Run tests
+        run: npm test
 
   release:
+    name: Create release and publish
     needs: test
     if: github.repository == 'brainbits/eslint-config-brainbits'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - env:
+      - name: Install node dependencies
+        run: npm ci
+      - name: Release and publish using lerna with conventional commits
+        env:
             NODE_AUTH_TOKEN: ${{secrets.npm_token}}
         run: |
             git config --global user.name 'Brainbits Bot'
