@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-jest",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Default eslint config for project using jest at Brainbits GmbH",
   "main": "index.js",
   "repository": "brainbits/eslint-config-brainbits",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-brainbits": "^2.1.1"
+    "eslint-config-brainbits": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0 || ^6.1.0",
