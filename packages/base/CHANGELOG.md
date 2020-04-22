@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.2.0 (2020-04-22)
+
+
+### Features
+
+* **base:** add eslint-plugin-promise with sensible default configuration ([7a4a459](https://github.com/brainbits/eslint-config-brainbits/commit/7a4a4592bf670da067dacc0ec0f99b8b4d365f6c))
+
+
+
+
+
 ## 2.1.3 (2020-04-22)
 
 **Note:** Version bump only for package eslint-config-brainbits
