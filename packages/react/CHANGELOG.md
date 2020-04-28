@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.3.0 (2020-04-28)
+
+
+### Features
+
+* **react:** Add react hooks ruleset ([312a73f](https://github.com/brainbits/eslint-config-brainbits/commit/312a73f16e3ed6e650c119abdcb0280d37944576))
+
+
+
+
+
 # 2.2.0 (2020-04-22)
 
 
