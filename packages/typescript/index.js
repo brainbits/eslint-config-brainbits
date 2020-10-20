@@ -33,10 +33,21 @@ module.exports = {
         'brace-style': 'off',
         '@typescript-eslint/brace-style': baseStyleRules['brace-style'],
 
-        // Replace Airbnb 'camelcase' rule with '@typescript-eslint' version
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/camelcase.md
+        // Disable Airbnb 'camelcase' rule in favor of @typescript-eslint/naming-convention
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
         camelcase: 'off',
-        '@typescript-eslint/camelcase': baseStyleRules.camelcase,
+        '@typescript-eslint/naming-convention': [
+            'error',
+            { selector: 'default', format: ['strictCamelCase'] },
+            { selector: 'variable', format: ['strictCamelCase', 'StrictPascalCase'] },
+            { selector: 'variable', modifiers: ['const'], format: ['strictCamelCase', 'UPPER_CASE', 'StrictPascalCase'] },
+            { selector: 'function', format: ['strictCamelCase', 'StrictPascalCase'] },
+            { selector: 'parameter', format: ['strictCamelCase'], leadingUnderscore: 'allow' },
+            { selector: 'memberLike', format: ['strictCamelCase', 'StrictPascalCase'] },
+            { selector: 'memberLike', modifiers: ['private'], format: ['strictCamelCase', 'StrictPascalCase'], leadingUnderscore: 'allow' },
+            { selector: 'memberLike', filter: { regex: '^__typename', match: true }, format: null },
+            { selector: 'typeLike', format: ['StrictPascalCase'] },
+        ],
 
         // Replace Airbnb 'comma-spacing' rule with '@typescript-eslint' version
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
@@ -87,6 +98,11 @@ module.exports = {
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
         'no-magic-numbers': 'off',
         '@typescript-eslint/no-magic-numbers': baseBestPracticesRules['no-magic-numbers'],
+
+        // Replace Airbnb 'no-shadow' rule with '@typescript-eslint' version
+        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+        'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': baseBestPracticesRules['no-magic-numbers'],
 
         // Replace Airbnb 'no-throw-literal' rule with '@typescript-eslint' version
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
@@ -159,5 +175,7 @@ module.exports = {
         }],
 
         '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
+
+        '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true, allowNullish: true }],
     },
 };
