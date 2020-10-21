@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.1 (2020-10-21)
+
+
+### Bug Fixes
+
+* Update lerna ([f3c5b25](https://github.com/brainbits/eslint-config-brainbits/commit/f3c5b2595ba8b1c33182447860750e60a2d7e964))
+
+
+
+
+
 # 3.0.0 (2020-10-21)
 
 
