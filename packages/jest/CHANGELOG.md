@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2020-10-21)
+
+
+### chore
+
+* major dependency updates ([c18fb9a](https://github.com/brainbits/eslint-config-brainbits/commit/c18fb9a79b4e47b6623c3e3e077fa3c867a80f14))
+
+
+### BREAKING CHANGES
+
+* There are new rules and old rules were removed, especially in the typescript configs.
+
+
+
+
+
 ## 2.3.3 (2020-09-11)
 
 **Note:** Version bump only for package eslint-config-brainbits-jest
