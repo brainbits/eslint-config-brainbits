@@ -1,14 +1,22 @@
-Install peer dependecies:
+# brainbits Javascript Codestyle
 
-`(
-  export PKG=eslint-config-brainbits;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
-)`
+This repository contains extensible eslint configurations we use at [brainbits](https://www.brainbits.net).
 
-To add this put this code into your .eslintrc:
+As we use this in very versatile projects, our rule set comes in different flavours:
 
-`{ "extends": "brainbits" }`
+- [**`eslint-config-brainbits`**](./packages/base/README.md)
+  Contains rules for vanilla javascript projects. It is also the base for all more specific rule sets.
 
-On linux / mac you can add it like this:
+- [**`eslint-config-brainbits-jest`**](./packages/jest/README.md)
+  Can additionally be added to a project when using jest for testing
 
-`echo "{ \"extends\": \"brainbits\" }" >> .eslintrc`
+- [**`eslint-config-brainbits-react`**](./packages/react/README.md)
+  Rules for our react based projects
+
+- [**`eslint-config-brainbits-typescript`**](./packages/typescript/README.md)
+  A base ruleset for projects using typescript.
+
+- [**`eslint-config-brainbits-typescript-react`**](./packages/typescript-react/README.md)
+  Rules for react projects which use typescript as well.
+
+Use the links above to get detailed information for installation.
