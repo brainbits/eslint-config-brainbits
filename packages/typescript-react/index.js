@@ -33,5 +33,8 @@ module.exports = {
         'react/jsx-filename-extension': ['error', {
             extensions: ['.jsx', '.tsx'],
         }],
+        // Disable prop-types rules, because they are unnecessary when using types
+        'react/prop-types': 'off',
+        'react/require-default-props': 'off',
     }
 };
