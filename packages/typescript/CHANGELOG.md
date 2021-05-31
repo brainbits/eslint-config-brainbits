@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.5 (2021-05-31)
+
+
+### Bug Fixes
+
+* Add missing peer dependency to eslint-plugin-jest ([0443331](https://github.com/brainbits/eslint-config-brainbits/commit/0443331145e725022703e0dd94f01f2ec1ee787e))
+
+
+
+
+
 ## 3.0.4 (2021-05-27)
 
 **Note:** Version bump only for package eslint-config-brainbits-typescript
