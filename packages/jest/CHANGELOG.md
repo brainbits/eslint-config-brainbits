@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.6 (2021-06-01)
+
+**Note:** Version bump only for package eslint-config-brainbits-jest
+
+
+
+
+
 ## 3.0.5 (2021-05-31)
 
 
