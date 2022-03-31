@@ -25,7 +25,7 @@ module.exports = {
             {
                 ...baseRules['import/no-extraneous-dependencies'][1],
                 devDependencies: [
-                    ...baseRules['import/no-extraneous-dependencies'][1].devDependencies.map((glob) => glob.replace('js,jsx', 'js,jsx,ts,tsx')),
+                    ...baseRules['import/no-extraneous-dependencies'][1].devDependencies.map(glob => glob.replace('js,jsx', 'js,jsx,ts,tsx')),
                     'src/setupTests.ts',
                 ],
             },
@@ -36,5 +36,5 @@ module.exports = {
         // Disable prop-types rules, because they are unnecessary when using types
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
-    }
+    },
 };
