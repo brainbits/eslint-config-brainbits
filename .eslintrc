@@ -1,3 +1,6 @@
 {
-    "extends": "./packages/base/index.js"
+    "extends": "./packages/base/index.js",
+    "rules": {
+        "import/no-extraneous-dependencies": "off"
+    }
 }

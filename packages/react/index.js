@@ -26,12 +26,12 @@ module.exports = {
         'import/no-extraneous-dependencies': [
             'error',
             {
-                'devDependencies': [
+                devDependencies: [
                     '**/*.test.js',
                     '**/*.test.jsx',
                     'src/setupTests.js',
-                ]
-            }
+                ],
+            },
         ],
     },
 };
