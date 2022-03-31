@@ -22,6 +22,7 @@
     "packages/jest",
     "packages/react",
     "packages/typescript",
-    "packages/typescript-react"
+    "packages/typescript-react",
+    "tests/react"
   ]
 }
