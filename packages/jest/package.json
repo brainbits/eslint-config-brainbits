@@ -10,10 +10,7 @@
     "config"
   ],
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-brainbits": "^3.0.9"
-  },
   "peerDependencies": {
-    "eslint-plugin-jest": "^24.3.6"
+    "eslint-plugin-jest": "^26.1.3"
   }
 }
