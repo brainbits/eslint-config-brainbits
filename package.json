@@ -13,5 +13,12 @@
   "private": true,
   "repository": "brainbits/eslint-config-brainbits",
   "author": "Michael van Engelshoven <michael@van-engelshoven.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/base",
+    "packages/jest",
+    "packages/react",
+    "packages/typescript",
+    "packages/typescript-react"
+  ]
 }
