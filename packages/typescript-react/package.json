@@ -15,7 +15,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-brainbits-react": "^3.0.9",
-    "eslint-config-brainbits-typescript": "^3.0.9"
+    "eslint-config-brainbits-react": "3.0.9",
+    "eslint-config-brainbits-typescript": "3.0.9"
   }
 }
