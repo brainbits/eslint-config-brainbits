@@ -8,7 +8,7 @@
   },
   "repository": "brainbits/eslint-config-brainbits",
   "dependencies": {
-    "eslint-config-brainbits-react": "^3.0.9",
+    "eslint-config-brainbits-react": "^4.0.0-beta.3+9d72dcf",
     "react": "^18.0.0"
   }
 }
