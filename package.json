@@ -7,7 +7,7 @@
   "devDependencies": {
     "eslint": "^8.12.0",
     "eslint-config-brainbits": "./packages/base",
-    "lerna": "^4.0.0"
+    "lerna": "^5.5.4"
   },
   "name": "eslint-config-brainbits-monorepo",
   "version": "0.1.0",
