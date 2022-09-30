@@ -23,6 +23,13 @@ module.exports = {
             'error',
             4,
         ],
+        'react/function-component-definition': [
+            'error',
+            {
+                namedComponents: 'arrow-function',
+                unnamedComponents: 'arrow-function',
+            },
+        ],
         'import/no-extraneous-dependencies': [
             'error',
             {
