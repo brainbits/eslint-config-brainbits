@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0-beta.4 (2022-10-04)
+
+
+### Features
+
+* **react:** Configure functional component definition style ([d167e81](https://github.com/brainbits/eslint-config-brainbits/commit/d167e81b04f14dafac47c2087e16ce60ad3a2a62))
+
+
+
+
+
 ## 3.0.9 (2021-09-01)
 
 **Note:** Version bump only for package eslint-config-brainbits-react
