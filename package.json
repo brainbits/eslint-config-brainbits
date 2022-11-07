@@ -18,6 +18,7 @@
   "author": "Michael van Engelshoven <michael@van-engelshoven.de>",
   "license": "MIT",
   "workspaces": [
+    "packages/angular",
     "packages/base",
     "packages/jest",
     "packages/react",
