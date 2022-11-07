@@ -7,6 +7,9 @@ As we use this in very versatile projects, our rule set comes in different flavo
 - [**`eslint-config-brainbits`**](./packages/base/README.md)
   Contains rules for vanilla javascript projects. It is also the base for all more specific rule sets.
 
+- [**`eslint-config-brainbits-angular`**](./packages/angular/README.md)
+  Rules for angular projects
+
 - [**`eslint-config-brainbits-jest`**](./packages/jest/README.md)
   Can additionally be added to a project when using jest for testing
 
