@@ -4,6 +4,9 @@ This repository contains extensible eslint configurations we use at [brainbits](
 
 As we use this in very versatile projects, our rule set comes in different flavours:
 
+- [**`eslint-config-brainbits-angular`**](./packages/angular/README.md)
+  Rules for our angular based projects
+
 - [**`eslint-config-brainbits`**](./packages/base/README.md)
   Contains rules for vanilla javascript projects. It is also the base for all more specific rule sets.
 
