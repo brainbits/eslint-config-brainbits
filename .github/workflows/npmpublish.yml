@@ -28,9 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup NodeJS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
@@ -42,4 +42,4 @@ jobs:
         run: |
             git config --global user.name 'Brainbits Bot'
             git config --global user.email 'info@brainbits.net'
-            npx lerna publish --conventional-commits --conventional-graduate --yes
+            npx lerna publish --conventional-commits --yes
