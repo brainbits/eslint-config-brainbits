@@ -42,4 +42,4 @@ jobs:
         run: |
             git config --global user.name 'Brainbits Bot'
             git config --global user.email 'info@brainbits.net'
-            npx lerna publish --conventional-commits --conventional-graduate --yes
+            npx lerna publish --conventional-commits --yes
