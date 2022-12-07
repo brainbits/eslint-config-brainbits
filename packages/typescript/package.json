@@ -19,8 +19,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
-    "typescript": ">=3.3.1 <4.9.0"
+    "@typescript-eslint/parser": "^5.38.1"
   },
   "gitHead": "9d72dcf4aa03981901ce34b64ddea7e4ce56d55c"
 }
