@@ -15,7 +15,7 @@
     ],
     "license": "MIT",
     "peerDependencies": {
-        "@angular-eslint/eslint-plugin": "^16.0.1"
+        "@angular-eslint/eslint-plugin": "^16.1.0"
     },
     "gitHead": "9d72dcf4aa03981901ce34b64ddea7e4ce56d55c"
 }
