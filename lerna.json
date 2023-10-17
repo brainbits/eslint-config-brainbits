@@ -1,12 +1,4 @@
 {
   "lerna": "2.7.0",
-  "useWorkspaces": true,
-  "command": {
-    "bootstrap": {
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
-    }
-  },
   "version": "4.1.4"
 }

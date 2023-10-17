@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "postinstall": "lerna bootstrap --no-ci",
     "publish": "lerna publish",
     "lint": "eslint packages/"
   },
