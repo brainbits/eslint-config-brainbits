@@ -1,14 +1,14 @@
 {
   "name": "react-test",
   "private": true,
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "Tests for eslint-config-brainbits-react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "brainbits/eslint-config-brainbits",
   "dependencies": {
-    "eslint-config-brainbits-react": "^4.1.5",
+    "eslint-config-brainbits-react": "^4.1.6",
     "react": "^18.0.0"
   }
 }

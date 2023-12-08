@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-brainbits-angular",
-    "version": "4.1.5",
+    "version": "4.1.6",
     "description": "Global angular eslint rules for Brainbits GmbH",
     "main": "index.js",
     "scripts": {
