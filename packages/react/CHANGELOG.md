@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.7 (2024-01-10)
+
+
+### Bug Fixes
+
+* **typescript:** allow PascalCase for default imports ([24ed51d](https://github.com/brainbits/eslint-config-brainbits/commit/24ed51d4b3d498c92327bf6bf5543904c65c07b5))
+
+
+
+
+
 ## 4.1.6 (2023-12-08)
 
 **Note:** Version bump only for package eslint-config-brainbits-react
