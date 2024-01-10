@@ -39,6 +39,7 @@ module.exports = {
         '@typescript-eslint/naming-convention': [
             'error',
             { selector: 'default', format: ['strictCamelCase'] },
+            { selector: 'import', format: ['strictCamelCase', 'StrictPascalCase'] },
             { selector: 'variable', format: ['strictCamelCase', 'StrictPascalCase'] },
             { selector: 'variable', modifiers: ['const'], format: ['strictCamelCase', 'UPPER_CASE', 'StrictPascalCase'] },
             { selector: 'function', format: ['strictCamelCase', 'StrictPascalCase'] },
