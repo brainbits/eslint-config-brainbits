@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.10 (2024-01-15)
+
+
+### Bug Fixes
+
+* **typescript:** change @typescript-eslint/naming-convention settings ([1461193](https://github.com/brainbits/eslint-config-brainbits/commit/14611938cf8ccbce9e1812b7ef6b8ed912e085b7))
+
+
+
+
+
 ## 4.1.9 (2024-01-10)
 
 **Note:** Version bump only for package eslint-config-brainbits-jest
