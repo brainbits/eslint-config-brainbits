@@ -13,7 +13,7 @@
   "main": "index.js",
   "private": true,
   "repository": "brainbits/eslint-config-brainbits",
-  "author": "Michael van Engelshoven <michael@van-engelshoven.de>",
+  "author": "brainbits GmbH <info@brainbits.net>",
   "license": "MIT",
   "workspaces": [
     "packages/angular",
