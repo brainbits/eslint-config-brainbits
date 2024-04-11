@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-jest": "^27.0.4"
+    "eslint-plugin-jest": "^27.0.4 || ^28.0.0"
   },
   "gitHead": "9d72dcf4aa03981901ce34b64ddea7e4ce56d55c"
 }
