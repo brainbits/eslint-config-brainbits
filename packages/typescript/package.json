@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brainbits-typescript",
-  "version": "4.1.11",
+  "version": "4.1.12",
   "description": "Global typescript eslint rules for Brainbits GmbH",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-brainbits": "^4.1.11"
+    "eslint-config-brainbits": "^4.1.12"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.1 || ^6.0.0 || ^7.0.0",
