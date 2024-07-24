@@ -20,7 +20,7 @@
     "eslint": "^5.16.0 || ^6.1.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0 || ^7.0.0"
   },
   "gitHead": "9d72dcf4aa03981901ce34b64ddea7e4ce56d55c"
 }
