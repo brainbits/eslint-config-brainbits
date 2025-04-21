@@ -20,7 +20,7 @@
   "peerDependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^4.1.0"
+    "eslint-plugin-react-hooks": "^4.1.0 || ^5.0.0"
   },
   "gitHead": "9d72dcf4aa03981901ce34b64ddea7e4ce56d55c"
 }
